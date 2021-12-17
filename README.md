@@ -12,3 +12,7 @@ Multiple Choice Question Quiz Application, built for assessment/test. User to an
 - submit button can be press if time running out without the rest questions being answered
 - result page user can see if pass or fail, how many correct answer out of total of questions, time taken to complete quiz
 - can retake quiz for failed result
+
+
+![image](https://user-images.githubusercontent.com/94664124/146491679-17d48efc-ca7f-47e9-aa5d-bed0330c5b17.png)
+
