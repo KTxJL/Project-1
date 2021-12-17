@@ -1,6 +1,6 @@
 # Project-1
 
-## Module 1-Individual Project 1-MCQ Quiz App
+## Module-1-Individual Project 1-MCQ Quiz App
 
 Multiple Choice Question Quiz Application, built for assessment/test. User to answer set of questions and displaying marks scores by the end of the quiz.
 
