@@ -1,0 +1,74 @@
+#ten-countdown {
+	/* text-align: center; */
+	display: inline;
+	color: #DC143C;
+	font-family: Verdana, sans-serif, Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Lato", sans-serif
+}
+
+.mySlides {
+	display: none
+}
+
+.donate-now {
+	list-style-type: none;
+	padding: 0;
+}
+
+.donate-now li {
+	float: left;
+	margin: 0 5px 0 0;
+	width: 100px;
+	height: 40px;
+}
+
+.donate-now label,
+.donate-now input {
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.donate-now input[type="radio"] {
+	opacity: 0.011;
+	z-index: 100;
+}
+
+.donate-now input[type="radio"]:checked+label {
+	background: yellow;
+}
+
+.donate-now label {
+	padding: 5px;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	z-index: 90;
+}
+
+.donate-now label:hover {
+	background: #DDD;
+}
+
+.Disabled {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.noCursor {
+	cursor: none;
+	pointer-events: none;
+}
