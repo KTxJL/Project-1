@@ -14,5 +14,4 @@ Multiple Choice Question Quiz Application, built for assessment/test. User to an
 
 - can retake quiz for failed result (additional function)
 
-
-![Project 1](https://user-images.githubusercontent.com/94664124/146491830-8b2b2dbd-1bf9-476f-b740-519f0b2684c0.png)
+![project-1](https://user-images.githubusercontent.com/94664124/146838625-ebfc716b-8cd4-4f9f-bc37-d1b530691360.PNG)
