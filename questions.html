@@ -1,24 +1,24 @@
 <html>
    <head>
-      <title>Assessment</title>
+      <title>mcqQuizApp</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
       <link rel="stylesheet" href="./css/default.css">
       <script src="./src/Questions.js"></script>
    </head>
    <body>
       <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
          <div class="w3-opacity w3-center"><div id="ten-countdown"></div>
-		 <h2 id="MCQNo" class="w3-wide w3-center">T</h2>
+		 <h2 id="MCQNo" class="w3-wide w3-center">T</h2> <!--if initialize function in my questions.js gone wrong it will display T for me to debug and troubleshoot -->
          <div class="w3-row w3-padding-32">
 			<div id="MCQQues">
 			</div>
-            <div class="w3-col m6 w3-left donate-now" id="answerLeft">
+            <div class="w3-col m6 w3-left donate-now" id="answerLeft"> <!--choices were radio button type nature but I change its appearance with css-->
             </div>
-            <div class="w3-col m6 w3-right donate-now" id="answerright">
+            <div class="w3-col m6 w3-right donate-now" id="answerRight">
             </div>
          </div>
 		 <button class="w3-button w3-black w3-section w3-right" onclick="updateResult()">Next Question</button>

@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var btnResult = document.getElementById("passFail");
         score = correctAnswer / totalQ * 100;
         if (score >= 50) {
-            btnResult.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PASS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+            btnResult.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PASS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; 
             btnResult.classList.add("w3-green");
         } else {
             btnResult.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";

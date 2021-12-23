@@ -12,21 +12,21 @@ body {
 	font-family: "Lato", sans-serif
 }
 
-.mySlides {
+/* .mySlides {
 	display: none
-}
+} */
 
 .donate-now {
 	list-style-type: none;
 	padding: 0;
 }
 
-.donate-now li {
+/* .donate-now li {
 	float: left;
 	margin: 0 5px 0 0;
 	width: 100px;
 	height: 40px;
-}
+} */
 
 .donate-now label,
 .donate-now input {
@@ -39,11 +39,13 @@ body {
 	border-radius: 20px;
 }
 
+/* radio type input transparent and see through choice */	
 .donate-now input[type="radio"] {
 	opacity: 0.011;
 	z-index: 100;
 }
 
+/* radio type input with label if checked will turn yellow */
 .donate-now input[type="radio"]:checked+label {
 	background: yellow;
 }
@@ -55,10 +57,12 @@ body {
 	z-index: 90;
 }
 
+/* label hover change colour */
 .donate-now label:hover {
 	background: #DDD;
 }
 
+/* disable pass/fail radio button to avoid user click on it/prevent any events because css-html template copied using radio button to display pass or fail */
 .Disabled {
 	pointer-events: none;
 	cursor: not-allowed;
@@ -72,3 +76,6 @@ body {
 	cursor: none;
 	pointer-events: none;
 }
+
+/* .donate-now series are mcq design css templates and its correspond html classes copied online 
+the rest were written/customised accordingly to js function needs */
